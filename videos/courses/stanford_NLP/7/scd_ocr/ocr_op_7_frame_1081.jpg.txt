@@ -1,0 +1,14 @@
+amp n
+
+How similar are two strings?
+
+ 
+
+' Spell correction - Computational Biology
+. The user typed ”graffe" - Align two sequences of nucleotides
+
+Which is closest? ‘ ‘ J ‘
+- graf , , 1
+° graft
+- grail
+- giraffe

@@ -1,0 +1,25 @@
+LL:
+
+ 
+
+mum
+
+Adding Backtrace to Minimum Edit Distance
+
+ 
+
+- Base conditions: Termination:
+D(i.0) = i D(0,j) = j D(N,M) is distance
+. Recurrence Relation:
+
+For each i = IMM
+For each j = L,.N
+
+D(i—1,j) + 1 deletion
+D(iyj)= min D1i,j-1) + 1 @
+
+D(i—1,j—1) + 2; if X(i) : Y(j) substitution
+0; if X(i) = Y(:'Ii
+LEFT insertion |
+ptriilji= DOWN ueierioni
+DIAG substitution

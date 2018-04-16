@@ -1,0 +1,16 @@
+41.41)“
+
+Regular Expressions: Negation in Disjunction
+
+ 
+
+- Negations [ASs]
+- Carat means negation only when ﬁrst in []
+
+m——
+
+[ ”A—Z] Not an upper case letter Oxfn pripetchik
+[‘55] Neither ’5' nor ’5’ I have no exquisite reason"
+[ Ae” ] Neither e nor " Look here
+
+a‘b The pattern 3 carat b Look up a “b now

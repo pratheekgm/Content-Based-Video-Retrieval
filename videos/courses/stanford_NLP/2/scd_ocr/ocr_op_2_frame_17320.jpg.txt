@@ -1,0 +1,17 @@
+e 4| Oregexpalxom ﬁn 2 9 '\
+
+ 
+
+@3> regexpal 0.1.4 — a J avaScript regular expression tester
+
+C] Case insensitive (i) a "$ match at line breaks (m) D Dot matche
+
+[AA—Za—‘zJ [Tt] 1%; [AA—1 Za-‘zJ
+
+ 
+
+A110. we saw [11ml
+
+-Cat in the Hat!
+
+-other one there, the blithe one.

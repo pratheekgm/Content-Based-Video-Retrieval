@@ -1,0 +1,20 @@
+e a ‘Qlegexpalxom {k E 0 -\
+
+@ regexpal 0.1.4 — a JavaScript regular expression tester
+
+O Case insensitive (i) 8 "$ match at line breaks (m) [j Dot matches
+
+ 
+
+i
+
+ 
+
+We looked!
+
+Then we saw him step in on the mat.
+We looked!
+
+And we saw him!
+
+The Cat in the Hat!

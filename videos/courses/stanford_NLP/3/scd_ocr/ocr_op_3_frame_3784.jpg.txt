@@ -1,0 +1,41 @@
+new We)
+
+TQGQI war UR /G
+
+Mr: is. m. um ﬂue u (M W Sen-In Mum m
+imm- o ”ohm“
+
+9:1
+
+/* Abbreviations - induced from 1987 WSJ by hand ’/
+
+EWNTH = JaaneblMarlAprlJunlJullAungeplSepthctholeec
+
+/‘ Jun and Jul barely occur, but don't seem dangerous ‘/
+
+BDAVS = MoanuelTueslﬂelehulThur‘slFri
+
+/‘ Sat‘ and Sun, barely occur and can easily lead to errors, so we omit them ‘/
+
+/‘ In (useless, la\.m|p\,m handled as ACRO, and this is better as can often
+
+be followed by Capitalized. ‘/
+
+/‘ Mal or Me. isn't included as too many errors, and most sources use Mass. etc. ‘/
+
+/‘ Fed, is tricky. Usually sentence end, but not before "Governor“ or "Natl. Mtg. Assn " ‘/
+/‘ Make some states case sensitive, since they're also reasonably common words ‘/
+
+ESTATE = AlulAr‘izl [AJr'kICalifKololConnlDaleel\FlaIGal [1]“IIndlKansﬂKylLal[MjasslMdlMicthi
+nnl[MjisslMolMontheblNevloklal[Ojr'e|Pa|Penn|Tenaneleathl[leashlwiscHWyo
+
+/' In the caseless world S.p.A. "Societa Per Azioni (Italian: shared company)" is got as a regu
+lar acronym '/
+
+ACRO = [AvZaiz](\l[AeZavz])+l((anada|$inolKoreanlEUIJapan|non)7U\lSIU\lS\.7(U\lK|U\lS\lS\.R)
+BTITLE = MrerslMsl[M]iss|Drs?|ProFs?lSens?lkeps?lAttys?lLtholIGenlMessrs|Govs?lAdmlRev|MajIS
+thpl|Pvt[MtJCapt|Ste?lAveIPreslLieut|Hon|BrigIC07mdr|Pfc|$pcl$upts7lDet .
+
+ABPTIT = JrlSr‘lBr‘osl(Eleh)\lD\BlvledlEsq
+
+MM mums» M-mv 1mm!)

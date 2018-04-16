@@ -1,0 +1,21 @@
+Danlumlxky
+
+The Overlap Detection variant
+
+Changes:
+
+1. Initialization
+For all i, j,
+F(i, 0) = o
+no, j) = o
+
+2, Termination
+
+maxl F(i, N)
+F0" = max
+
+maxj Fm, j)
+
+ 
+
+Slide from Seraﬁm Batzoglou

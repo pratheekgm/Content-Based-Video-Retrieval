@@ -1,0 +1,10 @@
+Why sequence alignment?
+
+° Comparing genes or regions from different species
+0 to ﬁnd important regions
+. determine function
+. uncover evolutionary forces
+
+' Assembling fragments to sequence DNA
+
+0 Compare individuals to looking for mutations

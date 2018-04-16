@@ -1,0 +1,19 @@
+Tokenization: language issues
+
+ 
+
+- Chinese and Japanese no spaces between words:
+- ﬁiﬁiﬁﬁiﬂﬁﬁﬁﬁilﬂEﬁgﬂﬁ‘ilﬁgiifso
+' ﬁiﬁiﬁﬁi iﬂi’f Eli E i131 Eﬁﬁll 3‘] {ﬁgii
+. Sharapova now lives In US southeastern Flonda
+- Further complicated in Japanese, with multiple alphabets
+intermingled
+- Dates/amounts in multiple formats
+
+72L—flylsooﬁlzﬂﬁIEwEwE/lem50 maooozH)
+
+Katakana Hiragana Kanjl Ramajl
+
+ 
+
+End-user can express query entirely in hiragana!

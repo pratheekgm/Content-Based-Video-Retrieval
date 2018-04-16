@@ -1,0 +1,17 @@
+my mum
+
+How similar are two strings?
+
+ 
+
+ 
+
+- Spell correction - Computational Biology
+0 The user typed ”graffe" 0 Align two sequences of nucleotides
+Which is closest?
+- graf
+. graft - Resulting alignment:
+- grail
+- giraffe —As‘crmcnc meme: LGGCGA TGCCC
+
+AG CTATCAC GACC‘C GG‘.CGA.‘ ‘TGCCC 1' ‘

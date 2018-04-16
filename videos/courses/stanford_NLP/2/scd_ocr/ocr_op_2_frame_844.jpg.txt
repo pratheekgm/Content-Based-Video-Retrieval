@@ -1,0 +1,15 @@
+Danuralsky
+
+Regular expressions
+
+ 
+
+- A formal language for specifying text strings
+
+- How can we search for any of these?
+0 woodchuck
+
+0 woodchucks
+- Woodchuck
+
+- Woodchucks

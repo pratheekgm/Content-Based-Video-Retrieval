@@ -1,0 +1,18 @@
+The Distance Matrix
+
+ 
+
+X Every non-decreasing path
+from (0,0) to (M, N)
+corresponds to
+an alignment
+3 of the two sequences
+I;
+
+X
+
+An opumal alignment IS composed
+
+Yo~~~ ' yM of optimal suballgnments
+
+Slide adapted (mm Seraﬁm Bauoglnu

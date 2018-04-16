@@ -1,0 +1,10 @@
+,I How similar are two strings?
+
+Spell correction
+. The user typed "graffe”
+
+Which is dosest?
+0 graf
+- graft
+- grail
+0 giraffe

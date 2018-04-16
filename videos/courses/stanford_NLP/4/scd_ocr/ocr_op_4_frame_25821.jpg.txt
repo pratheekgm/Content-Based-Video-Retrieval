@@ -1,0 +1,16 @@
+Max-match segmentation illustration
+
+   
+
+Thecatinthehat the cat in the hat
+
+- Thetabledownthere ‘he tab'e d°Wn there
+theta bled own there
+
+- Doesn’t generally work in English!
+
+- But works astonishingly well in Chinese
+- ﬁﬁlﬁiﬂiﬁiﬂlfiﬁﬁfiilﬂEfﬁﬁﬂa’ilﬁgiﬁo
+- ﬁlﬂiwé Elli Eli E $13 Email 8’») mgiit
+
+- Modern probabilistic segmentation algorithms even better

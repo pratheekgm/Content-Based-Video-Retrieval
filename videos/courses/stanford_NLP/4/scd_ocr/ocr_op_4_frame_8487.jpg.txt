@@ -1,0 +1,17 @@
+How many words?
+
+ 
+
+N = number of tokens ‘
+Church and Gale (1990): IVI > 0(N/‘)
+V= vocabulary = set of types
+
+|V| is the size of the vocabulary
+
+—— Tvnes = IVI
+
+Switchboard phone 2.4 million 20 thousand
+conversations
+Shakespeare 884,000 31 thousand
+
+Google N-grams 1 trillion 13 million

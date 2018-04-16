@@ -1,0 +1,23 @@
+_ mm. mm WW“... n
+
+(3' ﬂ Orzgexpalxom i} 2 a ‘
+
+@ regexpal 0.1.4 — a J avaScript regular expression tester
+C] Case insensitive (i) 8 "3 match at line breaks (m) [j Dot matches
+
+ 
+
+ 
+
+ 
+
+ 
+
+We looked!
+
+Then we saw him step in on the mat.
+We lookedh!
+
+And we saw him!
+
+The Cat in the Hat!

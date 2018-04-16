@@ -1,0 +1,18 @@
+[m Jun“
+
+Regular Expressions: Disjunctions
+
+ 
+
+- Letters inside square brackets []
+
+mas——
+
+[WW]OOdChuCk Woodchuck, woodchuck
+[1234567890] Anydigit
+
+- Ranges [A—Z]
+[A—Z) An upper case letter Qrenched Blossoms
+[5—2] A lower case letter r_ny beans were impatient
+
+[0—9] Asingledigit Chapter A: Down the Rabbit Hole

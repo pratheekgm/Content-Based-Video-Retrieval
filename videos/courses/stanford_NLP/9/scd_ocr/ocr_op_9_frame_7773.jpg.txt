@@ -1,0 +1,18 @@
+in ~ .ulahxy
+
+f" Adding Backtrace to Minimum Edit Distance
+Q
+
+- Base conditions: Termination:
+D(i,0) = i D(0,j) = j D(N,M) is distance
+- Recurrence Relation:
+For each i = IMH
+For each j = INN
+
+D(i—1,j) + 1 delenon
+D(i,j)= min D1i,j-1) + 1 innsemnn
+D(i—1,j—1) + 2; 1f x01): y(j) isubstitution
+0; if X(i) = Y(ji
+LEFT insertiani .
+Ptr(ilji= DOWN ueienoni
+DIAG substitution

@@ -1,0 +1,15 @@
+The Needleman-Wunsch Algorithm
+
+ 
+
+- Initialization:
+D(i,0) = —i * d
+
+D(0,j) = —j * d
+° Recurrence Relation:
+D(i-llj) - d
+
+D(i,j)=.D<i.j-1> - d
+D(i—1.j-1) + SIX(i).y(j)]
+- Termination:
+D(N,M) is distance

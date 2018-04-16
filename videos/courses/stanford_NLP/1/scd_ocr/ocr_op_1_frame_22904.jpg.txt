@@ -1,0 +1,12 @@
+Dan Auralsky
+
+. Skills you’ll need
+
+- Simple linear algebra (vectors, matrices)
+0 Basic probability theory
+
+ 
+
+- JAVA or Python programming
+
+- Weekly programming assignments

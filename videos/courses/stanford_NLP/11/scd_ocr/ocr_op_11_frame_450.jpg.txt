@@ -1,0 +1,8 @@
+Sequence Alignment
+
+  
+
+TCACCTGACCTCCIK .66
+Dr (“\(‘FLCCC' CAG
+
+Cr““GCCC

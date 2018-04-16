@@ -1,0 +1,15 @@
+4) .vi mm in,
+
+ 
+
+- Regular expressions play a surprisingly large role
+
+- Sophisticated sequences of regular expressions are often the ﬁrst model
+for any text processing text
+
+0 For many hard tasks, we use machine learning classiﬁers
+
+- But regular expressions are used as features in the classiﬁers
+. Can be very useful in capturing generalizations
+
+ll

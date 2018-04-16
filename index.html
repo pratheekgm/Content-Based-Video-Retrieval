@@ -1,0 +1,371 @@
+<html>
+<head>
+  <link href="css/video-js.css" rel="stylesheet">
+  <link href="css/video_player.css" rel="stylesheet">
+  <link href="css/videojs-playlist-ui.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <script src="js/bootstrap.js"></script>
+</head>
+<style>
+  #container {
+    width:90%;
+    height:83%;
+    margin: auto;
+  }
+
+  #player-container { 
+    max-width: 78%; 
+    max-height: 100%;
+    text-align: left; 
+    margin-left: 2%;
+    /*display: inline-block;*/
+    float:left;
+  }
+
+  #top
+  {
+    top:0px;
+    position: absolute;
+    width: 100%;
+  }
+
+  #desc
+  {
+    width: 66%;
+    left:7%;
+    right:34%;
+  }
+  
+  /* Show the controls (hidden at the start by default) */
+  .video-js .vjs-control-bar { 
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  /* Make the demo a little prettier */
+  body {
+    margin-top: 20px;
+    background: #222;
+    text-align: center; 
+    color: #aaa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: radial-gradient(#333, hsl(200,30%,6%) );
+  }
+
+  a, a:hover, a:visited { 
+    color: #76DAFF; 
+  }
+
+  div.vjs-playlist {
+    max-width: 18%;
+    max-height: 97%;
+    text-align: left; 
+    margin-right: 2%;
+    /*display: inline-block;*/
+    float:right;
+  }
+
+  div.vjs-playlist picture {
+    max-width: 100%;
+    max-height: 100%;
+
+  }
+
+  .btncls{
+    background-color:#3A4F5E;
+    border: #2e6da4;
+    font-family: Arial, Geneva, Arial, Helvetica,  sans-serif;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 2px;
+    border-radius: 4px;
+    line-height: 1.5;
+    text-decoration:none;
+    
+    /*Transition*/
+    -webkit-transition: All 0.5s ease;
+    -moz-transition: All 0.5s ease;
+    -o-transition: All 0.5s ease;
+    -ms-transition: All 0.5s ease;
+    transition: All 0.5s ease;
+  }
+  .btncls:hover{
+    background-color:#87A2B6;
+    border: #2e6da4;
+    font-family: Arial, Geneva, Arial, Helvetica,  sans-serif;
+    font-size: 15px;
+    color: #000;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    
+    border-radius: 4px;
+    line-height: 1.5;
+    text-decoration:none;   
+  }
+</style>
+<body onload="get_playlist()">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="top">
+  <a class="navbar-brand" href="#">CBVR</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation" style="">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor03">
+    <ul class="navbar-nav mr-auto">
+      <!-- <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li> -->
+    </ul>
+    <form class="form-inline my-2 my-lg-0" method="get" action="search.php">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" name="query">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<br>
+<br>
+<div id="container">
+    <div id="player-container">
+      <video id="video" class="video-js vjs-default-skin" width="900" height="400" 
+          controls preload="none"
+          data-setup='{ "aspectRatio":"16:9", "playbackRates": [1, 1.5, 2] }'>
+        <source src="https://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+      </video>
+    </div>
+
+    <div class="vjs-playlist">
+        <!--
+          The contents of this element will be filled based on the
+          currently loaded playlist
+        -->
+    </div>
+</div>
+  <div id="buttons_container">
+    <!-- <div class="topics">
+        
+          The contents of this element will be filled based on the
+          currently loaded playlist
+               
+    </div> -->
+
+  </div>
+<br>
+<br>
+<div class="card text-white bg-secondary mb-3" id="desc">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h4 class="card-title">Secondary card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+
+
+</div>
+
+
+<hr width="2px">
+<!--Footer-->
+<footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+
+  <!--Footer Links-->
+  <div class="container text-center text-md-left">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!--First column-->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
+        <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <!--/.First column-->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!--Second column-->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+        <p><a href="#!">MDBootstrap</a></p>
+        <p><a href="#!">MDWordPress</a></p>
+        <p><a href="#!">BrandFlow</a></p>
+        <p><a href="#!">Bootstrap Angular</a></p>
+      </div>
+      <!--/.Second column-->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!--Third column-->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+        <p><a href="#!">Your Account</a></p>
+        <p><a href="#!">Become an Affiliate</a></p>
+        <p><a href="#!">Shipping Rates</a></p>
+        <p><a href="#!">Help</a></p>
+      </div>
+      <!--/.Third column-->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!--Fourth column-->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+        <p><i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+        <p><i class="fa fa-envelope mr-3"></i> info@gmail.com</p>
+        <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+        <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+      </div>
+      <!--/.Fourth column-->
+
+    </div>
+    <!-- Footer links -->
+
+    <hr>
+
+    <div class="row py-3 d-flex align-items-center">
+
+      <!--Grid column-->
+
+      <!--Grid column-->
+
+      <!--Grid column-->
+
+      <!--Grid column-->
+
+    </div>
+
+  </div>
+
+</footer>
+<!--/.Footer-->
+
+
+<script src="js/video.js"></script>
+  <script src="js/videojs-playlist.js"></script>
+  <script src="js/videojs-playlist-ui.js"></script>
+  
+  <script>
+
+    // playlist element json prototype
+    // 
+    // [
+    //   {
+    //     name:'',
+    //     description:'',
+    //     sources:[
+    //               { src: '', type: ''}
+    //             ],
+    //     thumbnail:[
+    //                 { srcset: '', type:''},
+    //                 { src: ''}
+    //               ]
+    //   }, ... 
+    // ]
+
+    //currVidIndex;
+    function myfunc() {
+      setTimeout(get_topics(),1000);
+    }
+    function display_playlist(videos){
+      player = videojs('video');
+      player.playlist(videos);
+      // Initialize the playlist-ui plugin.
+      player.playlistUi({vertical: true,playOnSelect: true});
+      player.muted(true);
+      player.autoplay(true);
+      player.play();                                            
+      var vids = document.getElementsByClassName("vjs-playlist-item");
+      for (var i = 0; i < vids.length; i++) {
+        vids[i].addEventListener("click",function(){myfunc();});
+      }
+      setTimeout(get_topics(),1000);
+    }
+
+    function get_playlist(){
+      var xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          //document.getElementById("demo").innerHTML = this.responseText;
+          var video_files_array = JSON.parse(this.responseText); //video_files_array is a global variable with the JSON data which will be used in the display_playlist function.
+          console.log(video_files_array);
+          display_playlist(video_files_array);
+        }
+      };
+      xhr.open("POST", "get_videos.php", true);
+      xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+      xhr.send("path=./videos/courses/stanford_NLP&type=mp4");
+    }
+    
+    function display_topics(topics){ 
+      //var pl = videojs('video');
+      // pl.playlist(topics);
+      // pl.playlistUi({className:"topics"});
+      //console.log(topics);
+      var buttons_container = document.getElementById("buttons_container");
+      while (buttons_container.firstChild) {
+        buttons_container.removeChild(buttons_container.firstChild);
+      }
+      for (var i = 0; i < topics.length; i++) {
+        var time = topics[i];
+        var date = new Date(time * 1000).toISOString().substr(11, 8);
+        var btn = document.createElement("button");
+        btn.innerHTML = date;//
+        btn.value = time.toString();
+        btn.className = "btncls";
+        btn.onclick = function(){ 
+          player.currentTime(parseInt(this.value));
+          //console.log("click!");
+        };
+        buttons_container.appendChild(btn);
+      }
+      
+    }
+
+    function get_topics() {
+
+        var currSrc = player.currentSrc();
+        var currDir = currSrc.substr(0, currSrc.lastIndexOf("/"));
+        console.log(currSrc+"   "+currDir);
+        var xhr2 = new XMLHttpRequest();
+        xhr2.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          //document.getElementById("demo").innerHTML = this.responseText;
+          var topics_array = JSON.parse(this.responseText); //topics_array is a global variable with an array of timestamp(in seconds) which will be used in the display_topics function.
+          console.log(topics_array);
+          display_topics(topics_array);
+        }
+      };
+      xhr2.open("POST", "get_topics.php", true);
+      xhr2.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+      xhr2.send("path="+currDir+"/&csv=scenes.csv");
+    }
+
+    function submit() {
+        var sub = document.getElementById("subm");
+        if(sub.innerHTML!="")
+        {
+            var xhr3 = new XMLHttpRequest();
+
+        }
+
+
+    }
+
+  </script>
+</body>
+</html>

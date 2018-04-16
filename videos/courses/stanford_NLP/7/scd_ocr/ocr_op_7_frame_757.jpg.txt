@@ -1,0 +1,12 @@
+How similar are two strings?
+
+ 
+
+- Spell correction
+- The user typed ”graffe”
+
+Which is closest?
+0 graf
+° graft
+- graii
+- giraffe

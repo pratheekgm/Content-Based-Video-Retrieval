@@ -1,0 +1,11 @@
+Decision Trees and other classiﬁers
+
+ 
+
+0 We can think of the questions in a decision tree
+- As features that could be exploited by any kind of
+classiﬁer
+- Logistic regression
+0 SVM ——
+- Neural Nets
+- etc.

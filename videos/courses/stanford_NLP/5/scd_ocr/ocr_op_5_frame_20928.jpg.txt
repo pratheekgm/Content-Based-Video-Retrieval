@@ -1,0 +1,19 @@
+Dealing with complex morphology is
+sometimes necessary
+
+ 
+
+- Some languages requires complex morpheme segmentation
+- Turkish
+0 Uygarlasﬁramadiklarlmizdanmissinizcasina
+' ‘(behaving) as if you are among those whom we could not civilize’
+0 Uygar ‘civilized’ + las ‘become’
+
++ tir ‘samg’ + ama ‘not able’
+. . . , K“
+
++ dik past + lar plural
+
++ lmll 'p1p|’+ dan ’abl’
+
+4» mi; ’past’ + Slnll 'Zpl’ + casma ’as if'

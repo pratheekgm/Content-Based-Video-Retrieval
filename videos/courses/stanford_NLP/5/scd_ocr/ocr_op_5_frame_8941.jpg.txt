@@ -1,0 +1,11 @@
+Danluralskv
+
+@ Stemming
+
+- Reduce terms to their stems in information retrieval
+
+0 Stemming is crude chopping of afﬁxes
+0 language dependent
+- e.g., automate(s), automatic, automation all reduced to automat.
+
+q

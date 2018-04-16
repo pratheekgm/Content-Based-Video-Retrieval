@@ -1,0 +1,17 @@
+u
+
+     
+
+a
+
+variant of the basic algorithm:
+
+- Maybe it is OK to have an unlimited l? of gaps in the beginning
+and end:
+
+---------- CTATCACCTGACCTCCAGGCCGATGCCCCTTCCGGC
+GCGAGTTCATCTATCAC- -GACCGC- -GGTCG --------------
+
+- If so, we don’t want to penalize gaps at the ends
+
+Slide lrom Seralim Batzoglou

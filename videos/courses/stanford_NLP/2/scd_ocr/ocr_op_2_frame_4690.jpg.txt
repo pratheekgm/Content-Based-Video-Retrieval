@@ -1,0 +1,14 @@
+Regular Expressions: Negation in Disjunction
+
+ 
+
+- Negations [‘Ss]
+- Carat means negation only when ﬁrst in []
+
+m——
+
+[ AA—Z] Not an Kpper case letter Oyfn pripetchik
+[”Ss] Neither’S' nor '5’ I have no exquisite reason”
+[”e”] Neither e nor " Look hgre
+
+a‘b The pattern 3 carat b Look up a ”in now

@@ -1,0 +1,14 @@
+Sequence Alignment
+
+CC‘TGCCC
+
+     
+
+TCACCTGACCTCC‘A GG
+GACITGCGC'T MG
+
+:3 (E3
+
+ 
+
+.. r

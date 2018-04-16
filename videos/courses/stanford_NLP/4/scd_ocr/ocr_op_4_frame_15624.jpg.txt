@@ -1,0 +1,17 @@
+1m 1.1mm»
+
+Issues in Tokenization
+
+ 
+
+- Finland's capital —> Finland Finlands Finland's ?
+0 what’re, I’m, isn't —* what are, I am, is not
+
+- Hewlett-Packard -~ Hewlett Packard ?
+
+- state-of—the—art —> state of the art ?
+
+0 Lowercase —* lower-case lowercase lower case ?
+- San Francisco —+ one token ortwo?
+
+- m‘p‘thhD‘ —> ??

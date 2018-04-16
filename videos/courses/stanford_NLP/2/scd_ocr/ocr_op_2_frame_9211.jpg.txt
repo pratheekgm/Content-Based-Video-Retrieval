@@ -1,0 +1,45 @@
+my mm
+
+ 
+
+Regular Expressions:? * +
+
+R
+__—
+
+colou?r
+
+00*h!
+
+o+hi
+
+baa+
+
+beg.n
+
+Optional
+previous char
+
+0 or more of
+previous char
+
+1 or more of
+previous char
+
+cglor colgur
+
+oh; 90,111, 0 o 1 99 hi
+
+oh! ooh! ooohl ooooh!
+
+ 
+
+baa baaa baaaa baaaaa
+
+begin begun begun beg3n
+
+    
+
+Stephen C Kleene
+
+Kleene ‘, Kleene +

@@ -1,0 +1,19 @@
+Daulumlsky
+
+/' . .
+The Local All nment Problem
+3
+
+Given two strings
+
+ 
+
+Find substrings x’, y’ whose similarity
+
+(optimal global alignment value)
+is maximum
+
+ 
+
+X = aaaac-"cccgg a
+y = CCng_' accaacc Sllde tram Suaﬁm Bauoglou

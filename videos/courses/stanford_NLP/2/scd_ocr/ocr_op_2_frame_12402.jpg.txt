@@ -1,0 +1,11 @@
+Regular Expressions: Anchors " $
+
+ 
+
+@—
+
+” [A—Z] gale Alto
+” [ ‘A—Za—z] 1 ”Hello"
+\ . $ The end;
+
+.S The end? The endlr

@@ -1,0 +1,9 @@
+Weighted Edit Distance
+
+ 
+
+- Why would we add weights to the computation?
+0 Spell Correction: some letters are more likely to be mistyped than others
+
+' Biology: certain kinds of deletions or insertions are more likely than
+others

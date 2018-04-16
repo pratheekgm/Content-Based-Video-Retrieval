@@ -1,0 +1,11 @@
+Deﬁning Min Edit Distance
+
+~ For two strings
+0 X of length n
+0 Y of length m
+- We deﬁne D(i,j)
+- the edit distance between X[1..i] and Y[1..j]
+- i.e., the ﬁrst i characters of X and the ﬁrst] characters of Y
+- The edit distance between X and Y is thus D(n,nl)
+
+H/iQ/

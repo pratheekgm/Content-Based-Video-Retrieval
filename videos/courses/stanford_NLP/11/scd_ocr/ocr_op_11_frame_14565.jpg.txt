@@ -1,0 +1,24 @@
+The Smith-Waterman algorithm
+
+ 
+
+Termination:
+1. If we want the best local alignment...
+
+Fopr = max“ F“! 1) \DV‘ ‘
+
+Find FDPT and trace back
+
+ 
+
+ 
+
+ 
+
+ 
+
+2‘ If we want all local alignments scoring > t
+
+?? For all i, j ﬁnd F(i, j) > t, and trace back?
+
+Complicated by overlapping local alignments Slide lrom Serahm Batzaglou

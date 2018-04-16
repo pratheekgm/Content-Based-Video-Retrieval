@@ -1,0 +1,15 @@
+Alignment in Computational Biology
+
+ 
+
+Given a sequence of bases
+
+gggCh ATC AC CTGACCTCCAGGCCGATGCCC
+M& AC GACCGCGGTCGATTTGCCCGAC
+
+An alignment:
+
+*AGGCTATCACCTGACCTCCAGGCCGAi*TGCCC***
+TAG—CTATCAC——GACCGC——GGTCGATTTGCCCGAC
+
+Given two sequences, align each letter to a letter or gap

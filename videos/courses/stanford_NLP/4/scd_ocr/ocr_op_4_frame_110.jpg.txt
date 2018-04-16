@@ -1,0 +1,4 @@
+Text Normalization
+
+0 Every NLP task needs to do text
+normalization:

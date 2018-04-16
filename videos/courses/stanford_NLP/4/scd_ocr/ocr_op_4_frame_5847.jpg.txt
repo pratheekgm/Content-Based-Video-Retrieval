@@ -1,0 +1,6 @@
+How many words?
+
+N = number of tokens
+
+V= vocabulary = set of types
+|V| is the size of the vocabulary

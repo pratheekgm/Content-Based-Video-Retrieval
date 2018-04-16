@@ -1,0 +1,22 @@
+D M
+
+ 
+
+Sentence Segmentation
+
+ 
+
+- l, ? are relatively unambiguous
+- Period ”." is quite ambiguous
+
+- Sentence boundary
+
+. Abbreviations like Inc. or Dr.
+
+- Numbers like ,02% or 4.3
+
+- Build a binary classiﬁer
+- Looks at a
+- Decides EndOfSentence/NotEndOfSentence
+
+- Classiﬁers: hand-written rules, regular expressions, or machine-learning
